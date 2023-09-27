@@ -1,1 +1,131 @@
 /* your code here */
+
+body {
+    background-color: rgb(188, 170, 126)
+}
+
+.product {
+    background-color: rgb(224, 224, 240);
+    position: absolute;
+    left: 40%;
+    top: 100px;
+    width: 700px;
+    height:600px ;
+    border-radius: 10px;
+}
+
+.product_photo {
+    background-color: black;
+}
+
+.product__info{
+    position: absolute;
+    top: 60px;
+    right: 30px;
+}
+.title h1{
+    font-size: 25px;
+}
+.title span{
+    font-size: 10px;
+    position: absolute;
+    top: 55px;
+    opacity: 0.5;
+}
+
+.price{
+    color: rgb(227, 70, 70);
+    position:relative;
+    top: 20px;
+    
+}
+.price span{
+    font-size: 50px;
+    
+}
+
+.variant{
+    position: absolute;
+    top: 160px;
+}
+.variant h3{
+    font-size: 15px;
+    opacity: 0.5;
+}
+.variant ul{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    
+}
+.variant ul li{
+    margin-right: 10px;
+}
+.variant ul li:hover{
+    border-top: 2px solid rgb(45, 94, 178);
+    border-left: 2px solid rgb(45, 94, 178);
+    border-right: 1px solid rgb(45, 94, 178);
+    opacity: 0.5;
+}
+.photo-main{
+    background-image: linear-gradient(to right, rgb(244, 237, 113),rgb(237, 162, 71)) ;
+    background-color: rgb(187, 174, 158);
+    position: fixed;
+    top: 140px;
+    left: 580px;
+    height: 450px;
+    width: 380px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.fa {
+ position: fixed;
+ top: 160px;
+ left: 590px;
+}
+#fac {
+    position: fixed;
+    top: 160px;
+    left: 920px;
+   }
+.photo-album{
+    background-color:  rgb(226, 226, 232);
+    position: fixed;
+    top: 590px;
+    left: 580px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.photo-album ul{
+    display: flex;
+    list-style: none;
+}
+.photo-album ul li{
+    margin-right: 10px;
+}
+.photo-album ul li:hover{
+    border-top: 1px solid rgb(45, 94, 178);
+    border-left: 1px solid rgb(45, 94, 178);
+    border-right: 1px solid rgb(45, 94, 178);
+    opacity: 0.5;
+}
+.description{
+    position: relative;
+    top: 160px;
+}
+.description h3{
+    font-size: 15px;
+    opacity: 0.5;
+}
+.description button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(40, 25, 158);
+    color: aliceblue;
+    border-radius: 10px;
+}
+.photo-main img{
+    position: fixed;
+    left: 500px;
+    top: 200px;
+}
